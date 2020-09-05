@@ -1,0 +1,286 @@
+/* Structure */
+  :root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 62.5%/1.4 arial, verdana, tahoma;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    --primary: mediumvioletred;
+    --secondary: white;
+    --light:lightgray;
+    --theme: ivory;
+    --highlight: gold;
+  }
+  
+/* Style */
+  html,
+  body {
+    background: var(--primary);
+    color: var(--secondary);
+    overflow: auto;
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  #wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+    
+  #main {
+    max-width: 1100px;
+    min-height: 100vh;
+    padding: 50px 0;
+    display: block;
+    margin: auto;
+  }
+
+  header,
+  footer,
+  article,
+  section,
+  body,
+  .box,
+  .card {
+    box-sizing: border-box;
+  }
+
+  header {
+    top: 0;
+    position: fixed;
+  }
+
+  footer {
+    bottom: 0;
+    font-size: 1.5rem;
+    padding: 10px 20px; 
+    position: absolute; 
+    border-top: 2px solid var(--theme);
+  }
+  
+  header,
+  footer {
+    z-index: 1;
+    width: 100%;
+    opacity: 0.9;
+    overflow: hidden;
+    color: var(--theme);
+  }
+  .box {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+
+  article {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  section {
+    width: 500px;
+  }
+  .card {
+    width: 275px;
+  }
+
+  article,
+  section,
+  .card {
+    padding: 20px;
+  }
+   
+/* Content */
+  h1,
+  h2,
+  h3 {
+    opacity: 0.8;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+     
+  h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid var(--theme);
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  a {
+    color: var(--secondary);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    border-bottom: 2px solid var(--highlight);
+  }
+
+  .current {
+    color: var(--highlight);
+  }
+  
+  li {
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  svg {
+    display: block;
+    margin: auto;
+    opacity: .7;
+    color: var(--light);
+  }
+  
+  /* Content */
+ .fa-chess-queen {
+   max-height: 60vh;
+   color: var(--highlight);
+ }
+
+ .fa-microscope,
+ .fa-paint-brush {
+   max-width: 200px;
+ }
+.fa-pump-soap {
+  max-width: 150px;
+ }
+
+.fa-vial {
+   max-width: 180px;
+ }
+
+ .fa-palette {
+  max-width: 190px;
+}
+
+.fa-user-check {
+  max-width: 250px;
+}
+.fa-angellist {
+  max-width: 125px;
+  padding: 50px 0 10px;
+  color: var(--highlight);
+  border-bottom: 2px solid var(--highlight);
+}
+/* Contact */
+.form {
+  width: 600px;
+}
+  button,
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background: var(--light);
+    color: var(--secondary);
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    box-sizing: border-box;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+  }
+
+.contact-form-text {
+  margin: 1rem 0;
+  padding: 0 1rem;
+  outline: none;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 15rem;
+}
+.contact-form-btn {
+  text-align: center;
+  background: var(--light);
+  color: var(--theme);
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+  background: var(--theme);
+  transition: 0.4s ease;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+}
+
+.contact-form-text:focus {
+  outline: solid 2px var(--theme);
+}
+
+input[type="text"]:valid,
+input[type="email"]:valid {
+  background-color: var(--theme);
+}
+    
+/* Media Queries */
+  @media screen and (max-width: 600px) {
+  
+    header,
+    footer,
+    article,
+    section {
+      width: 100%;
+    }
+
+    #main {
+      padding: 75px 0;
+    }
+
+    .box {
+      padding: 0;
+    }
+
+    .fa-angellist {
+      padding-bottom: 10px;
+  }
+
+  @media all and (orientation: landscape) and (max-height: 600px){
+    footer {
+      display: none;
+    }
+
+    #main {
+      padding-bottom: 20px;
+    }
+  }
+}

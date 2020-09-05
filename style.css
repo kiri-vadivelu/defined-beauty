@@ -235,7 +235,7 @@ textarea.contact-form-text {
 }
 
 .contact-form-btn:hover {
-  background: var(--theme);
+  background: var(--highlight);
   transition: 0.4s ease;
   -webkit-transition: 0.4s ease;
   -moz-transition: 0.4s ease;
@@ -244,12 +244,12 @@ textarea.contact-form-text {
 }
 
 .contact-form-text:focus {
-  outline: solid 2px var(--theme);
+  outline: solid 2px var(--highlight);
 }
 
 input[type="text"]:valid,
 input[type="email"]:valid {
-  background-color: var(--theme);
+ background-color: var(--highlight);
 }
     
 /* Media Queries */

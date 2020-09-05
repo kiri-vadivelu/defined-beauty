@@ -8,7 +8,7 @@
     -webkit-font-smoothing: antialiased;
     --primary: mediumvioletred;
     --secondary: white;
-    --light:lightgray;
+    --light: lightgray;
     --theme: ivory;
     --highlight: gold;
   }
@@ -249,7 +249,7 @@ textarea.contact-form-text {
 
 input[type="text"]:valid,
 input[type="email"]:valid {
- background-color: var(--highlight);
+ background-color: var(--primary);
 }
     
 /* Media Queries */

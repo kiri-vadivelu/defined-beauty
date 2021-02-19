@@ -159,7 +159,7 @@
   
   /* Content */
  .fa-chess-queen {
-   max-height: 60vh;
+   max-height: 50vh;
    color: var(--highlight);
  }
 
@@ -183,8 +183,8 @@
   max-width: 250px;
 }
 .fa-angellist {
-  max-width: 125px;
-  padding: 50px 0 10px;
+  max-width: 150px;
+  padding: 40px 0 10px;
   color: var(--highlight);
   border-bottom: 2px solid var(--highlight);
 }

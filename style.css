@@ -183,8 +183,8 @@
   max-width: 250px;
 }
 .fa-angellist {
-  max-width: 150px;
-  padding: 40px 0 10px;
+  max-width: 125px;
+  padding: 0 10px;
   color: var(--highlight);
   border-bottom: 2px solid var(--highlight);
 }

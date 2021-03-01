@@ -1,5 +1,5 @@
-# defined-beauty
-Defined Beauty: A Photo &amp; Film Makeup Artistry in the City of Toronto. 
+# DEFINED BEAUTY
+A Photo and Film Makeup Artistry in the City of Toronto. 
 The project was researched, designed and developed by Digital Designers Team in the city of Toronto. Digital Designers is a web design company that specilizes in creating advanced custom websites, search engine optimizations and social media marketing. 
 
 ### Learn More
